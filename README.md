@@ -53,4 +53,4 @@ test-switch# (module 1)# show clock
 test-switch# (module 1)# exit
 ```
 
-Please Note this is Python2 application, and uses a basic list look up to get commands, no fancy logic.
+Please Note this is Python2 application, and uses nested dicts
