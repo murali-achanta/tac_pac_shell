@@ -1,5 +1,5 @@
 # Cisco Nexus N7K tac-pac shell
-Cisco Nexus N7K devices support tac-pac output collection for debugging customer issues. This application takes the uncompressed tac-pac text file and provide a CLI interface very similar to that of actual device. It prints out the command outputs from the supplied tac-pac text file.
+Cisco Nexus N7K devices support tac-pac output collection for debugging customer issues, Also some times only part of the logs are collected using *show tech-support* commands. This application takes the uncompressed tac-pac text file and provide a CLI interface very similar to that of actual device. It prints out the command outputs from the supplied tac-pac text file.
 
 This application is based on ****Cmd2**** package as it provides redirection of output to other linux utlities like ```less```, ```grep``` etc. 
 
